@@ -5,12 +5,13 @@
     "build": "xnft build",
     "start": "xnft watch"
   },
-  "devDependencies": {
-    "@coral-xyz/xnft-cli": "*",
-    "@parcel/config-default": "^2.7.0"
-  },
   "dependencies": {
     "react": "^17.0.2",
     "react-xnft": "*"
+  },
+  "devDependencies": {
+    "@coral-xyz/xnft-cli": "*",
+    "@parcel/config-default": "^2.7.0",
+    "eslint-config-custom": "*"
   }
 }
